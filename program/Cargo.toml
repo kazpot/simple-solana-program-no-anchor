@@ -1,0 +1,15 @@
+[package]
+name = "bank"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = "0.9.3"
+borsh-derive = "0.9.1"
+solana-program = "1.14.6"
+# concrete = "0.1.11"
+# concrete = { version = "0.2.0", features = ["integers"]}
+
+[lib]
+name = "bank"
+crate-type = ["cdylib", "lib"]

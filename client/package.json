@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.66.2",
+    "borsh": "^0.7.0",
+    "mz": "^2.7.0",
+    "path": "^0.12.7",
+    "yaml": "^2.1.3"
+  },
+  "devDependencies": {
+    "@types/mz": "^2.7.4",
+    "typescript": "^4.8.4",
+    "ts-node": "^10.0.0"
+  }
+}
